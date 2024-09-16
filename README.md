@@ -1,11 +1,15 @@
 # Follow up automation
 
-A  URL shortener web app built with Node.js and Express.js that allows users to generate short URLs and tracks the usage count of each shortened URL.
+This follow up generator extracts the account managers stats in the week of the inserted date, paste it over a template and store in a folder for that given date.
 
 ## Features
 
-- **Smart Storing**: Users can input a long URL, and the app generates a short URL.
-- **Color indicator**: The short URL redirects users to the original long URL.
+- **Smart Storing**: If the users a date which only some managers work. saturday for example, a folder for that date will be created and it will store follow ups only for those worked from tuesday to saturday, because the follow ups for manager who from monday to friday has been fully filled the day before and it was stored in the folder of the previous date.
+- **Color indicator**: It displays a color indicator for each stat, green if the goal was achieved, red if it was not.
+- **Dates**: It displays the worked dates
+
+  ![image](https://github.com/user-attachments/assets/3b8c0e5b-ce36-4d88-83fe-f369081ac854)
+
 
 ## Technologies
 
@@ -20,5 +24,5 @@ A  URL shortener web app built with Node.js and Express.js that allows users to 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/0kogu/follow-up-automation.git
+   git clone https://github.com/0kogu/followup-automation.git
    cd url-shortener

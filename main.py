@@ -40,8 +40,9 @@ def get_weekday(working_date):
 
 #Format yaware stat to fit the datetime library,
 def formated_yaware(hours_minutes):
+    hours_minutes = str(hours_minutes)
     if len(hours_minutes) > 1:
-        hours_minutes = hours_minutes.split(".")
+        hours_minutes = hours_minutes.split(":")
 
         working_hours = int(hours_minutes[0])
         working_minutes = int(hours_minutes[1])
@@ -51,8 +52,8 @@ def formated_yaware(hours_minutes):
         working_hours = int(hours_minutes[0])
         yaware = datetime.timedelta(hours=working_hours)
 
-    formated_yaware = yaware
-    return formated_yaware
+ 
+    return yaware
 
 #Format the Yaware stat if it's longer than 24 hours
 def yaware_over_24_hours(yaware_stat):
@@ -439,7 +440,7 @@ def daily_results(working_date, manager):
             #Format the yaware just to make it look better
             yaware = str(stats[3])
             
-            hours_minutes = yaware.split(".")
+            hours_minutes = yaware.split(":")
             hours = str(hours_minutes[0])
             minutes = str(hours_minutes[1])
 
@@ -665,7 +666,7 @@ def write_stats(working_date, manager):
 
 
 
-working_date = ('11/03/2024')
+working_date = ('15/03/2024')
 
 #Create folder
 date_ = working_date.replace("/","_")

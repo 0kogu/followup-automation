@@ -2,6 +2,9 @@
 
 This follow up generator extracts the account managers stats in the week of the inserted date, paste it over a template and store in a folder for that given date.
 
+The used data was created with [another project of mine](https://github.com/0kogu/Account-managers-analysis)
+
+
 ## Features
 
 - **Smart Storing**: If the user inserts a date which only some managers work. saturday for example, a folder for that date will be created and it will store follow ups only for those who worked from tuesday to saturday, because the follow ups for manager who from monday to friday has been fully filled the day before and it was stored in the folder of the previous date.

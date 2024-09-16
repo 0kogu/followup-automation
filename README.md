@@ -4,9 +4,9 @@ This follow up generator extracts the account managers stats in the week of the 
 
 ## Features
 
-- **Smart Storing**: If the users a date which only some managers work. saturday for example, a folder for that date will be created and it will store follow ups only for those worked from tuesday to saturday, because the follow ups for manager who from monday to friday has been fully filled the day before and it was stored in the folder of the previous date.
+- **Smart Storing**: If the user inserts a date which only some managers work. saturday for example, a folder for that date will be created and it will store follow ups only for those who worked from tuesday to saturday, because the follow ups for manager who from monday to friday has been fully filled the day before and it was stored in the folder of the previous date.
 - **Color indicator**: It displays a color indicator for each stat, green if the goal was achieved, red if it was not.
-- **Dates**: It displays the worked dates
+- **Dates**: It displays the worked dates in the week.
 
   ![image](https://github.com/user-attachments/assets/3b8c0e5b-ce36-4d88-83fe-f369081ac854)
 

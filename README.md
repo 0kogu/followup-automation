@@ -22,6 +22,12 @@ The used data was created with [another project of mine](https://github.com/0kog
 - **Pillow** for image editing
 
 
+## Future enhancements
+
+- Scheduling the script running in the cloud
+- Use Telegram API to automate the distribuiton of follow ups
+
+
 ## Installation
 
 1. **Clone the repository**:

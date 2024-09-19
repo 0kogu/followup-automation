@@ -34,4 +34,4 @@ The used data was created with [another project of mine](https://github.com/0kog
 
    ```bash
    git clone https://github.com/0kogu/followup-automation.git
-   cd url-shortener
+   cd followup-automation

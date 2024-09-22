@@ -2,6 +2,8 @@
 
 This follow up generator extracts the account managers stats in the week of the inserted date, paste it over a template and store in a folder for that given date.
 
+Here's a demonstration of it: https://youtu.be/rnLV8VfgmQo
+
 The used data was created with [another project of mine](https://github.com/0kogu/Account-managers-analysis)
 
 

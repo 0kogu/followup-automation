@@ -27,6 +27,7 @@ The used data was created with [another project of mine](https://github.com/0kog
 
 ## Future enhancements
 
+- Retrieve managers' stats directly from the API
 - Scheduling the script running in the cloud
 - Use Telegram API to automate the distribuiton of follow ups
 
